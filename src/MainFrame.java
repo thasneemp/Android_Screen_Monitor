@@ -195,9 +195,12 @@ public class MainFrame {
     }
 
     public void about() {
-        AboutDialog dialog = new AboutDialog(jFrame, true);
-        dialog.setLocationRelativeTo(jFrame);
-        dialog.setVisible(true);
+        MyAboutDialog dialoge = new MyAboutDialog(jFrame, true);
+        dialoge.setLocationRelativeTo(jFrame);
+        dialoge.setVisible(true);
+//        AboutDialog dialog = new AboutDialog(jFrame, true);
+//        dialog.setLocationRelativeTo(jFrame);
+//        dialog.setVisible(true);
     }
 
     public void updateSize() {

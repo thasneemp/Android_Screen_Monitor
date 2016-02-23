@@ -38,7 +38,8 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="com.asm.cast" class="ASM" text="Asm" description="Android screen monitor" icon="icons/icon.png">
+        <action id="com.asm.cast" class="ASM" text="Asm" description="Android screen monitor" icon="icons/icon.png"
+                keymap="ctrl alt b" popup="true">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <add-to-group group-id="MainToolBar" anchor="last"/>
         </action>
